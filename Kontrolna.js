@@ -55,14 +55,32 @@
 //INPUT: "Pisanje zadataka nije jednostavan posao";
 //OUTPUT: ("oasop navatsondej ejin akatadaz ejnasiP", 35)
 
-function okreni(str) {
-  let novi = "";
-  let brojac = 0;
-  let pomocni = [];
-  for (let i = str.length - 1; i >= 0; i--) {
-    pomocni[i] = str[i];
-    console.log(str[i]);
-  }
-}
+// function okreni(str) {
+//   let novi = "";
+//   let brojac = 0;
+//   let dodatnibrojac = 0;
+//   let pomocni = [];
+//   for (let i = str.length - 1; i >= 0; i--) {
+//     if (str[i] == " ") dodatnibrojac++;
 
-okreni("Pisanje zadataka nije jednostavan posao");
+//     pomocni += str[i];
+//     brojac++;
+//   }
+//   brojac = brojac - dodatnibrojac;
+//   console.log(pomocni);
+//   console.log(brojac);
+// }
+
+// okreni("Pisanje zadataka nije jednostavan posao");
+
+
+//zamjena zad
+
+ const kvadriraj = (niz) => {
+   let pomniz = [];
+  for (let i = 0; i < niz.length;i++) {
+
+  }
+
+
+  kvadriraj(2, 4, 6, 0, 1)
