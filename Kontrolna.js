@@ -73,14 +73,16 @@
 
 // okreni("Pisanje zadataka nije jednostavan posao");
 
-
 //zamjena zad
 
- const kvadriraj = (niz) => {
-   let pomniz = [];
-  for (let i = 0; i < niz.length;i++) {
+const kvadriraj = (niz) => {
+  let pomniz = [];
 
+  console.log("Pocetak funkcije");
+  for (let i = 0; i < niz.length; i++) {
+    pomniz[i] = niz[i] * niz[i];
   }
+  console.log(pomniz);
+};
 
-
-  kvadriraj(2, 4, 6, 0, 1)
+kvadriraj("2", "4", "6", "0", "1");
