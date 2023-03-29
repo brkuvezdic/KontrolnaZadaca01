@@ -51,39 +51,19 @@
 
 //3.
 
-// function okreni(a) {
-//   console.log("Pocetak funkcije");
+//Napisi funkciju koja okrece uneseni string i broji charactere ne uzimajuci u obzir prazna mjesta (eng. whitespaces)
+//INPUT: "Pisanje zadataka nije jednostavan posao";
+//OUTPUT: ("oasop navatsondej ejin akatadaz ejnasiP", 35)
+
+ function okreni(str) {
+   let novi = "";
+   for (let i = str.length - 1; i >= 0; i--) {
+        console.log("te
+   }
+
+
+
+
 
 // }
 // okreni("Pisanje zadataka nije jednostavan posao");
-
-//zadnji zad
-const someEvents = [
-  {
-    eventName: "Izasla je Java",
-    eventYear: 1995,
-  },
-  {
-    eventName: "Izasao je C#",
-    eventYear: 2000,
-  },
-  {
-    eventName: "Izasao je Python",
-    eventYear: 1991,
-  },
-  {
-    eventName: "Izasao je C++",
-    eventYear: 1985,
-  },
-  {
-    eventName: "Izasao je JavaScript",
-    eventYear: 1995,
-  },
-];
-
-function godine(x) {
-  for (let i = 0; i < 10; i++) {
-    console.log(someEvents.eventYear);
-  }
-}
-godine("5");
