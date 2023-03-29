@@ -50,3 +50,40 @@
 // dani("6");
 
 //3.
+
+// function okreni(a) {
+//   console.log("Pocetak funkcije");
+
+// }
+// okreni("Pisanje zadataka nije jednostavan posao");
+
+//zadnji zad
+const someEvents = [
+  {
+    eventName: "Izasla je Java",
+    eventYear: 1995,
+  },
+  {
+    eventName: "Izasao je C#",
+    eventYear: 2000,
+  },
+  {
+    eventName: "Izasao je Python",
+    eventYear: 1991,
+  },
+  {
+    eventName: "Izasao je C++",
+    eventYear: 1985,
+  },
+  {
+    eventName: "Izasao je JavaScript",
+    eventYear: 1995,
+  },
+];
+
+function godine(x) {
+  for (let i = 0; i < 10; i++) {
+    console.log(someEvents.eventYear);
+  }
+}
+godine("5");
