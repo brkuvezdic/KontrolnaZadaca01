@@ -55,15 +55,14 @@
 //INPUT: "Pisanje zadataka nije jednostavan posao";
 //OUTPUT: ("oasop navatsondej ejin akatadaz ejnasiP", 35)
 
- function okreni(str) {
-   let novi = "";
-   for (let i = str.length - 1; i >= 0; i--) {
-        console.log("te
-   }
+function okreni(str) {
+  let novi = "";
+  let brojac = 0;
+  let pomocni = [];
+  for (let i = str.length - 1; i >= 0; i--) {
+    pomocni[i] = str[i];
+    console.log(str[i]);
+  }
+}
 
-
-
-
-
-// }
-// okreni("Pisanje zadataka nije jednostavan posao");
+okreni("Pisanje zadataka nije jednostavan posao");
